@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Machado de Guerra",
+        "tipo": "Arma",
+        "qtd": 1,
+        "atributo": "120 Dano",
+        "raridade": "Épico"
+    },
+    {
+        "nome": "Elixir de Mana",
+        "tipo": "Consumível",
+        "qtd": 10,
+        "atributo": "+50 MP",
+        "raridade": "Comum"
+    },
+    {
+        "nome": "Escudo de Dragão",
+        "tipo": "Defesa",
+        "qtd": 1,
+        "atributo": "80 Defesa",
+        "raridade": "Lendário"
+    },
+    {
+        "nome": "Arco Longo",
+        "tipo": "Arma",
+        "qtd": 1,
+        "atributo": "90 Dano",
+        "raridade": "Raro"
+    }
+]

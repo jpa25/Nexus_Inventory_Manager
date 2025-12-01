@@ -1,0 +1,139 @@
+:root {
+    --bg-page: #1A3E45;
+    --bg-panel: #294e55;
+    --accent-dark: #467078;
+    --accent-light: #85A5AB;
+    --text-main: #B6D8DE;
+    --text-white: #ffffff;
+    --danger: #ff6b6b;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-page);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.painel {
+    background-color: var(--bg-panel);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 85%;
+    max-width: 900px;
+    border: 1px solid var(--accent-dark);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid var(--accent-dark);
+    padding-bottom: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: var(--text-white);
+    text-shadow: 0 0 10px rgba(182, 216, 222, 0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--accent-dark);
+}
+
+th {
+    background-color: var(--accent-dark);
+    color: var(--text-white);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+td {
+    background-color: rgba(26, 62, 69, 0.3);
+}
+
+tr:hover td {
+    background-color: var(--accent-light);
+    color: var(--bg-page);
+    cursor: default;
+    transition: 0.2s;
+}
+
+.btn-perigo {
+    background-color: transparent;
+    color: var(--accent-light);
+    border: 2px solid var(--accent-light);
+
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-perigo:hover {
+    background-color: var(--accent-light);
+    color: var(--bg-page);
+    box-shadow: 0 0 15px rgba(133, 165, 171, 0.4);
+}
+
+
+.btn-sucesso {
+    background-color: transparent;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.btn-sucesso:hover {
+    background-color: #2ecc71;
+    color: white;
+    box-shadow: 0 0 15px rgba(46, 204, 113, 0.4);
+}
+
+#campo-busca {
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--accent-light);
+    color: var(--text-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#campo-busca:focus {
+    border-color: var(--text-main);
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(182, 216, 222, 0.2);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Nexus Inventory Manager</title>
+</head>
+
+<body>
+    <div>
+        <div>Nexus Inventory Manager</div>
+        <div class="search-box" style="margin-top: 20px; margin-bottom: 10px;">
+            <input type="text" id="campo-busca" placeholder="Filtrar itens (Ex: Espada)...">
+        </div>
+        <button id="btn-limpar" class="btn-perigo">Limpar Inventário</button> <button id="btn-carregar"
+            class="btn-sucesso">Carregar Loot</button>
+
+        <table id="tabela-inventario">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Tipo</th>
+                    <th>Quantidade</th>
+                    <th>Dano/Cura</th>
+                    <th>Raridade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Espada Longa</td>
+                    <td>Arma</td>
+                    <td>1</td>
+                    <td>50 Dano</td>
+                    <td>Comum</td>
+                </tr>
+                <tr>
+                    <td>Poção de Cura</td>
+                    <td>Consumível</td>
+                    <td>100 HP</td>
+                    <td>+ 20 MP</td>
+                    <td>Comum</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
