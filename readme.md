@@ -1,5 +1,6 @@
 # 🛡️ Nexus Inventory Manager
 
+![Gravando 2025-12-01 114420](https://github.com/user-attachments/assets/5020095d-cc54-479b-9559-7919c763338c)
 
 > Um painel de controlo de inventário estilo RPG, desenvolvido para demonstrar manipulação de DOM, requisições AJAX e filtragem de dados em tempo real.
 
